@@ -12,11 +12,16 @@ body {
     height: 100vh;
     
 }
+
+/* first wrapper */
+
+
 #wrapper {
     background-color: rgb(78, 30, 120);
     width: 400px;
     border-radius: 45px;
     padding: 2rem;
+    
    
 
 }
@@ -45,13 +50,13 @@ body {
     font-size: 1.05rem;
     line-height: 1.5rem;
 }
-.buttons {
+#buttons {
 padding: 1.3rem;
 display: flex;
 justify-content: center;
 align-items: center;
 }
-.buttons .btn {
+#buttons .btn {
     width: 4rem;
     height: 3rem;
     margin-left: 0.3rem;
@@ -61,27 +66,78 @@ align-items: center;
     color: white;
     border: 0px;
     border-radius: 2rem;
+    outline: none;
 }
-.buttons .btn:hover {
+#buttons .btn:hover {
+    background-color: hsl(25, 87%, 59%); 
+    cursor: pointer;
+    
+}
+#buttons .btn:focus {
+    background-color: hsl(25, 97%, 53%); 
+}
 
-    background-color: hsl(25, 97%, 53%);
-}
 .submitbutton {
 margin-top: 1rem;
 display: flex;
 justify-content: center;
 }
 .submitbutton button {
-    width: 70%;
+  width: 70%;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     border-radius: 30px;
-    border: 0px;
+    border: none;
     color: white;
     background-color: hsl(25, 97%, 53%);
 }
 .submitbutton button:hover {
 background-color:hsl(25, 88%, 45%);
+cursor: pointer;
 
+
+}
+
+/* second wrapper */
+
+#wrapper2 {
+    background-color: rgb(78, 30, 120);
+    width: 400px;
+    border-radius: 45px;
+    padding: 2rem;
+    display: none;
+   
+}
+#wrapper2 .thank-you {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+#wrapper2 h3 {
+    margin-top: 1.3rem;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: white;
+    background-color: rgb(33, 33, 33, 0.5);
+    padding: 3px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+#wrapper2 h2 {
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+#wrapper2 h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
 }
