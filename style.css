@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+body {
+    background-color: rgb(1, 6, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+#wrapper {
+    background-color: rgb(78, 30, 120);
+    width: 25%;
+    height: 60vh;
+    border-radius: 45px;
+    padding: 2rem;
+   
+
+}
+.icon {
+    margin: 0.7rem;
+    background-color:rgb(99, 39, 152);
+    border: 10px solid rgb(99, 39, 152);
+    border-radius: 17px;
+}
+
+.text {
+    padding: 1rem;
+    color: white;   
+    margin-top: 1.5rem;
+}
+.text h1 {
+    display: inline-flex;
+    width: 100%;
+
+}
+.text h3 {
+    width: 100%;
+    display: block;
+    font-weight: 300;
+    color: rgb(210, 210, 210);
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+}
