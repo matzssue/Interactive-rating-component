@@ -80,6 +80,7 @@ body {
 #buttons .btn:hover {
     background-color: hsl(25, 87%, 59%); 
     cursor: pointer;
+    transition: 0.4s;
     
 }
 
@@ -103,6 +104,7 @@ body {
 .submitbutton button:hover {
     background-color:hsl(25, 87%, 59%);
     cursor: pointer;
+    transition: 0.3s;
     
 }
 :focus {
