@@ -1,3 +1,7 @@
+:root {
+    --main-orange: hsl(25, 97%, 53%)
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
     
 }
 
@@ -40,6 +45,7 @@ body {
 .text h1 {
     display: inline-flex;
     width: 100%;
+    color: var(--main-orange)
 
 }
 .text h3 {
@@ -50,11 +56,14 @@ body {
     font-size: 1.05rem;
     line-height: 1.5rem;
 }
+
+/* buttons */
+
 #buttons {
-padding: 1.3rem;
-display: flex;
-justify-content: center;
-align-items: center;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #buttons .btn {
     width: 4rem;
@@ -73,30 +82,31 @@ align-items: center;
     cursor: pointer;
     
 }
-#buttons .btn:focus {
-    background-color: hsl(25, 97%, 53%); 
-}
+
 
 .submitbutton {
-margin-top: 1rem;
-display: flex;
-justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 .submitbutton button {
-  width: 70%;
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 15px;
+    padding: 1.1rem;
     border-radius: 30px;
     border: none;
     color: white;
     background-color: hsl(25, 97%, 53%);
+    letter-spacing: 3px;
 }
 .submitbutton button:hover {
-background-color:hsl(25, 88%, 45%);
-cursor: pointer;
-
-
+    background-color:hsl(25, 87%, 59%);
+    cursor: pointer;
+    
+}
+:focus {
+    background-color: hsl(25, 88%, 45%) !important;
 }
 
 /* second wrapper */
@@ -106,6 +116,7 @@ cursor: pointer;
     width: 400px;
     border-radius: 45px;
     padding: 2rem;
+    align-items: center;
     display: none;
    
 }
@@ -122,16 +133,19 @@ cursor: pointer;
     font-weight: 200;
     color: white;
     background-color: rgb(33, 33, 33, 0.5);
-    padding: 3px;
+    padding: 0.5rem;
     text-align: center;
     border-radius: 15px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 #wrapper2 h2 {
     font-size: 1rem;
     font-weight: 200;
-    color: white;
+    color: rgb(222, 222, 222);
     text-align: center;
 }
 #wrapper2 h1 {
@@ -141,3 +155,4 @@ cursor: pointer;
     margin-bottom: 1rem;
     text-align: center;
 }
+
